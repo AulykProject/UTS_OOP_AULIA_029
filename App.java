@@ -13,8 +13,8 @@ public class App extends User {
 
         App user = new App("aul", "admin01");
 
-        user.tampilUser(); // dari parent (User)
-        user.akses();      // dari App
+        user.tampilUser(); 
+        user.akses();      
 
         System.out.println();
 
@@ -26,3 +26,6 @@ public class App extends User {
         payment.prosesPembayaran(order.hitungTotal());
     }
 }
+//NAMA : MUHAMMAD AULIA ULOH
+//NIM : 2515101029
+//KELAS : C
